@@ -1,9 +1,9 @@
-def prime?(x)
-  if x < 2
+def prime?(num)
+  if num < 2
      false
   else x < 1
-    (2..x - 1).to_a.all? do |n|
-      x % n = 0
+    (2..num - 1).to_a.all? do |n|
+      num % n = 0
       end
     end
 end
