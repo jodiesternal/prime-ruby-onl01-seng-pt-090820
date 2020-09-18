@@ -4,7 +4,6 @@ def prime?(x)
   else x < 1
     (2..x - 1).to_a.all? do |n|
       x % n = 0
-end
-
-  true
+      end
+    end
 end
