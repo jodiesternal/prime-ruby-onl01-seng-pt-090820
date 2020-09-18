@@ -1,6 +1,6 @@
 def prime?(x)
   if x == 1
-    return true
+    return false
   elsif x < 1
     return false
   else
