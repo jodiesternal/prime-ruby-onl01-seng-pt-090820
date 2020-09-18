@@ -3,7 +3,7 @@ def prime?(x)
     return false
   else x < 1
     (2..x - 1).to_a.all? do |n|
-
+      x % n
 end
 
   true
